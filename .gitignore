@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+
+# --- Jupyter Notebook / Colab ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Ignora file temporanei di Colab
+.virtual_documents/
+
+apple_news_data.csv
+*.h5
+*.pth
+*.pkl
+*.model
+*.onnx
+
+*.log
+.pytest_cache/
+
+.DS_Store
+Thumbs.db

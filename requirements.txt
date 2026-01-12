@@ -1,0 +1,17 @@
+﻿pandas
+numpy
+yfinance
+ta
+matplotlib
+seaborn
+plotly
+scikit-learn
+xgboost
+optuna
+torch
+torchvision
+torchaudio
+tensorflow
+transformers
+tqdm
+shap

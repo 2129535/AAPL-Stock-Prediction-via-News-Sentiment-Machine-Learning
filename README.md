@@ -27,3 +27,6 @@ The news dataset used in this project is the **"Apple Stock (AAPL): Historical F
 1. Download the dataset from the Kaggle link above.
 2. Place the `apple_news_data.csv` file inside the directory where you run the notebook.
 
+**Note on Running the Code:**
+The preprocessing section includes a Sentiment Analysis pipeline using FinBERT, which processes ~30k articles and may take several hours to complete. To facilitate the evaluation, I have provided the pre-processed sentiment scores and the final merged dataset (df_con_indicatori.csv) in the data/ folder. You can skip the "Sentiment Analysis" section and load the provided CSVs directly to run the Machine Learning models (LSTM and XGBoost) immediately.
+

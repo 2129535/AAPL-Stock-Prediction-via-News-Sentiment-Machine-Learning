@@ -1,5 +1,3 @@
-# AAPL-Stock-Prediction-via-News-Sentiment-Machine-Learning
-
 # AAPL Stock Prediction via Financial News Sentiment & Machine Learning
 
 This repository contains the final project for the Machine Learning course. The project explores the integration of qualitative financial news sentiment with quantitative technical indicators to predict the market dynamics of Apple Inc. (AAPL).

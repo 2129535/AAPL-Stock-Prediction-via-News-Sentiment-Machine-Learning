@@ -1,9 +1,5 @@
 # Stock Market Prediction via Financial News Sentiment & Reject Option Learning
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![NLP](https://img.shields.io/badge/NLP-FinBERT-green)
-![ML](https://img.shields.io/badge/Model-XGBoost%20%7C%20LSTM-orange)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 This project implements a machine learning pipeline for predicting Apple Inc. (AAPL) stock movements. The approach integrates domain-specific Natural Language Processing (NLP) with a **Reject Option Learning (ROL)** mechanism.
 
@@ -42,13 +38,11 @@ Comparing the baseline classifier (Standard XGBoost) against the proposed method
 ## 📉 Dataset & Setup
 Due to GitHub's file size limits, the datasets are hosted externally.
 
-### 📥 [DOWNLOAD DATASETS HERE (Google Drive)]()
+### 📥 [DOWNLOAD DATASETS HERE (Google Drive)](https://drive.google.com/drive/folders/1QPqPtS08HDJteaqUNbtH5NEurysnmiTH?usp=sharing)
 
 **Instructions:**
 1.  **Clone the repository.**
-2.  **Download the files** from the Drive link:
-    *   `apple_news_data.csv`: Raw news dataset.
-    *   `df_with_indicators_classification.csv`: Pre-processed dataset containing technical indicators and FinBERT sentiment scores.
+2.  **Download the files** from the Drive link
 3.  **Place the files** in the root directory of the project.
 4.  **Run the notebook**.
 

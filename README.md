@@ -29,11 +29,7 @@ Comparing the baseline classifier (Standard XGBoost) against the proposed method
 
 *Note: The reduction in coverage (17.9% of trades rejected) corresponds to periods of low model confidence or high volatility.*
 
-## 🛠️ Tech Stack
-*   **Data Sources:** Kaggle (News Corpus), Yahoo Finance (Market Data).
-*   **NLP:** `transformers` (Hugging Face), `torch`.
-*   **Modeling:** `xgboost`, `tensorflow` (Keras for LSTM), `arch` (for GARCH models).
-*   **Analysis:** `scikit-learn`, `pandas`, `shap`.
+
 
 ## 📉 Dataset & Setup
 Due to GitHub's file size limits, the datasets are hosted externally.
@@ -46,22 +42,9 @@ Due to GitHub's file size limits, the datasets are hosted externally.
 3.  **Place the files** in the root directory of the project.
 4.  **Run the notebook**.
 
-> **Note:** The NLP processing step (FinBERT) is computationally expensive. To reproduce the ML results immediately, load the pre-processed `df_with_indicators_classification.csv` file directly in the notebook.
+> **Note:** you can also find the dataset for the sentiment analysis at the following link: https://www.kaggle.com/datasets/frankossai/apple-stock-aapl-historical-financial-news-data
+ 
 
-## 🖼️ Visualizations
-
-### Reject Option Implementation
-*Blue lines indicate accepted trades; Red lines indicate rejection due to uncertainty.*
-![Price Series](paper/rol_price_series.png)
-
-### ROL Trade-off Analysis
-*Relationship between Confidence Threshold ($\tau$) and Conditional Sharpe Ratio.*
-![ROL Tradeoff](paper/rol_tradeoff.png)
-
-## 📄 Repository Structure
-*   `notebooks/`: Main Jupyter Notebook containing the full pipeline.
-*   `paper/`: Final academic report (PDF).
-*   `requirements.txt`: Python dependencies.
 
 ## 👥 Authors
 *   **Pietro Tommaso Giannattasio**
